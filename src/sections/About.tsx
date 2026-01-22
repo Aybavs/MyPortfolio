@@ -23,6 +23,14 @@ const toolboxItems = [
     iconType: JavascriptIcon,
   },
   {
+    title: "TypeScript",
+    iconType: JavascriptIcon,
+  },
+  {
+    title: "React",
+    iconType: ReactIcon,
+  },
+  {
     title: "HTML5",
     iconType: HTMLIcon,
   },
@@ -31,15 +39,31 @@ const toolboxItems = [
     iconType: CSSIcon,
   },
   {
-    title: "React",
-    iconType: ReactIcon,
+    title: "Node.js",
+    iconType: GithubIcon,
   },
   {
-    title: "ThreeJs",
-    iconType: ThreeJsIcon,
+    title: "Python",
+    iconType: GithubIcon,
   },
   {
-    title: "Github",
+    title: "Go",
+    iconType: GithubIcon,
+  },
+  {
+    title: "Docker",
+    iconType: GithubIcon,
+  },
+  {
+    title: "PostgreSQL",
+    iconType: GithubIcon,
+  },
+  {
+    title: "MongoDB",
+    iconType: GithubIcon,
+  },
+  {
+    title: "GitHub",
     iconType: GithubIcon,
   },
 ];

@@ -118,12 +118,13 @@ export const HeroSection = () => {
           </div>
           <div className="max-w-lg mx-auto">
             <h1 className="font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide">
-              Building Exceptional User Experiences
+              Building High-Performance Web Experiences
             </h1>
             <p className="mt-4 text-center text-white/60 md:text-lg">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima
-              omnis voluptates facilis labore sed soluta reprehenderit ex veniam
-              sint exercitationem!
+              Software Engineering student focused on scalable web solutions and
+              backend architectures. I develop practical projects using Node.js,
+              TypeScript, Go, and distributed systems while maintaining high
+              code quality and thriving in collaborative environments.
             </p>
           </div>
           <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">

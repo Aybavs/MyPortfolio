@@ -17,16 +17,18 @@ export const ContactSection = () => {
                   Let&apos;s create something amazing together.
                 </h2>
                 <p className="text-sm md:text-base mt-2 ">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod
-                  nulla tenetur corporis in a similique accusamus blanditiis et
-                  distinctio. Incidunt.
+                  Ready to bring your ideas to life with scalable,
+                  high-performance web solutions? Let&apos;s discuss your next
+                  project and create something exceptional together.
                 </p>
               </div>
               <div>
-                <button className="text-white bg-gray-900 inline-flex items-center px-6 h-12  rounded-3xl gap-2  w-max border border-gray-900">
-                  <span className="font-semibold ">Contact Me</span>
-                  <ArrowUpRightIcon className="size-4 " />
-                </button>
+                <a href="mailto:contact@aybarskeles.com">
+                  <button className="text-white bg-gray-900 inline-flex items-center px-6 h-12  rounded-3xl gap-2  w-max border border-gray-900">
+                    <span className="font-semibold ">Contact Me</span>
+                    <ArrowUpRightIcon className="size-4 " />
+                  </button>
+                </a>
               </div>
             </div>
           </div>

@@ -1,6 +1,6 @@
-import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
-import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
-import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
+import whatsappImage from "@/assets/images/whatsapp.webp";
+import spotifyImage from "@/assets/images/spotify.webp";
+import trustvoteImage from "@/assets/images/image.png";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
@@ -10,40 +10,43 @@ import { Card } from "@/components/Card";
 
 const portfolioProjects = [
   {
-    company: "Acme Corp",
-    year: "2022",
-    title: "Dark Saas Landing Page",
+    company: "Personal Project",
+    year: "2025",
+    title: "Distributed Real-Time Messaging System",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Built low-latency, scalable backend with Go and WebSocket" },
+      { title: "Integrated RabbitMQ for data integrity under high traffic" },
+      { title: "Optimized with Goroutines for concurrent message handling" },
     ],
-    link: "https://youtu.be/4k7IdSLxh6w",
-    image: darkSaasLandingPage,
+    link: "https://github.com/Aybavs/whatsapp",
+    image: whatsappImage,
   },
   {
-    company: "Innovative Co",
-    year: "2021",
-    title: "Light Saas Landing Page",
+    company: "Personal Project",
+    year: "2024",
+    title: "Web-Based Music Streaming Platform",
     results: [
-      { title: "Boosted sales by 20%" },
-      { title: "Expanded customer reach by 35%" },
-      { title: "Increased brand awareness by 15%" },
+      {
+        title:
+          "Developed high-performance, SEO-friendly interface with Next.js SSR",
+      },
+      { title: "Integrated Spotify SDK for seamless music playback" },
+      { title: "Designed dynamic playlist system with MongoDB NoSQL modeling" },
     ],
-    link: "https://youtu.be/7hi5zwO75yc",
-    image: lightSaasLandingPage,
+    link: "https://github.com/Aybavs/spotify-clone",
+    image: spotifyImage,
   },
   {
-    company: "Quantum Dynamics",
-    year: "2023",
-    title: "AI Startup Landing Page",
+    company: "Personal Project",
+    year: "2025",
+    title: "TrustVote - Blockchain Voting System",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Built transparent, immutable election protocol with Web3.js" },
+      { title: "Optimized blockchain transaction costs with FastAPI backend" },
+      { title: "Ensured data integrity with PostgreSQL and Smart Contracts" },
     ],
-    link: "https://youtu.be/Z7I5uSRHMHg",
-    image: aiStartupLandingPage,
+    link: "https://github.com/Aybavs/trustvote",
+    image: trustvoteImage,
   },
 ];
 
@@ -52,9 +55,9 @@ export const ProjectsSection = () => {
     <section id="projects" className="pb-16 lg:py-24">
       <div className="container">
         <SectionHeader
-          title="Fetured Projects"
+          title="Featured Projects"
           eyebrow="Real-world Results"
-          description="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, reiciendis."
+          description="See how I build scalable, modern web applications using cutting-edge technologies and best practices."
         />
         <div className="flex flex-col mt-10 md:mt-20 gap-20">
           {portfolioProjects.map((project, projectIndex) => (
@@ -89,7 +92,7 @@ export const ProjectsSection = () => {
                   </ul>
                   <a href={project.link}>
                     <button className="bg-white text-gray-950 h-12 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2 mt-8">
-                      <span>Visit Live Site</span>
+                      <span>View on GitHub</span>
                       <ArrowUpRightIcon className="size-4 " />
                     </button>
                   </a>
